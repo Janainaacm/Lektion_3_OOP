@@ -6,14 +6,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("Is this the first COMMIT?!");
+
         //Instantiate Object
         Student benny = new Student("Benny", 16);
         Student frida = new Student("Frida", 18);
 
-        System.out.println(addition(15, 17));
         System.out.println(addition (56, 789));
 
-        
 
     }
 
